@@ -82,14 +82,3 @@ def spammbot():
 
 
 spammbot()
-
-
-
-#driver=session.browser
-#driver.get(url)
-
-
-#inputElement  = driver.find_element_by_class_name("Ypffh")
-#inputElement.send_keys('1')
-
-# 
