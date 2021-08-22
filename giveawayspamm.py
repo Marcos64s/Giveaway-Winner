@@ -16,9 +16,6 @@ import pass_insta
 def spammbot():
     username_insta=pass_insta.username
     pwd=pass_insta.password
-    
-    #username_insta='marcos_mendes_idk'
-    #pwd='2255Ma:)'
 
     f = open("D:/OneDrive/OneDrive - Universidade de Aveiro/Mine/Git/readme/Codes/nicknames.txt", "r")
     names = f.readlines()
