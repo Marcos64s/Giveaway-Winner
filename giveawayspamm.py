@@ -17,7 +17,7 @@ def spammbot():
     username_insta=pass_insta.username
     pwd=pass_insta.password
 
-    f = open("D:/OneDrive/OneDrive - Universidade de Aveiro/Mine/Git/readme/Codes/nicknames.txt", "r")
+    f = open("...", "r") # path to usernames csv
     names = f.readlines()
 
     coments=[]
@@ -42,8 +42,8 @@ def spammbot():
 
 
     # driver = webdriver.Chrome(ChromeDriverManager().install())
-    url1=['https://www.instagram.com/p/CSSIc_0nh3k/comments/','https://www.instagram.com/p/CSyzO0dLjKZ/comments/','https://www.instagram.com/p/CSysW-Krtus/comments/']
-    session = InstaPy(username=username_insta,password=pwd).login()
+    url1=[#links here]
+    session = InstaPy(username=...,password=...).login()
     session.interact_by_URL(urls=url1)
 
     # session.browser.minimize_window()
